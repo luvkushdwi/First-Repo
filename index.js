@@ -148,6 +148,7 @@ app.put("/:id", (req, res) => {
         if (error) throw error;
         res.send(result)
 // Luvkush.....//
+// 
     })
 });
 app.delete("/:id", (req, res) => {
